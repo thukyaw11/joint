@@ -28,6 +28,13 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Favoriate.vue")
   },
+  {
+    path: "/viewBlog/:id",
+    name : "viewBlog",
+    props: true,
+    component: () => 
+      import('../components/Single.vue')
+  }
 
 ];
 
