@@ -1,7 +1,7 @@
 <template>
   <div class="container pt-3">
     <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6">
+      <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
         <img :src="singleView.thumbnail" class="single-image" />
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6" id="blog">
@@ -34,7 +34,7 @@ export default {
 
 <style>
 .single-image {
-  widows: 100%;
+  width: 100%;
   border-radius: 9px;
 }
 .single-title{
