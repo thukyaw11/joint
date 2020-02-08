@@ -1,5 +1,5 @@
 <template>
-  <div class="article">
-    <h1>This is a article page</h1>
+  <div class="article container">
+    <h1 id="comming">Coming Soon</h1>
   </div>
 </template>

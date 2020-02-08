@@ -1,18 +1,20 @@
 <template>
-  <div class="container pt-5">
-    <h2 style="text-align:left;">Blogs</h2>
+  <div class="container">
     <Popular />
-    <Single />
+    <Recommend />
+    <Newest />
   </div>
 </template>
 
 <script>
 import Popular from "../components/Popular";
-import Single from '../components/Single';
+import Recommend from '../components/Recommend';
+import Newest from '../components/Newest';
 export default {
   components: {
     Popular,
-    Single
+    Recommend,
+    Newest
   }
 };
 </script>

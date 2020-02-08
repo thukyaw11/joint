@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Explore from "../views/Explore.vue";
-
+import Single from "../views/Single.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -32,8 +32,7 @@ const routes = [
     path: "/viewBlog/:id",
     name : "viewBlog",
     props: true,
-    component: () => 
-      import('../components/Single.vue')
+    component: Single
   }
 
 ];

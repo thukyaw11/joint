@@ -1,7 +1,7 @@
 <template>
   <div class="row pt-4">
     <div class="col-8" style="text-align:left;">
-      <h5 style="font-weight:bold;">Popular articles</h5>
+      <h5 style="font-weight:bold;">Newest</h5>
     </div>
     <div class="scrollMenu">
       <div v-for="popular in populars" v-bind:key="popular.id">

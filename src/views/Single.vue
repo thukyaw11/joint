@@ -1,5 +1,5 @@
 <template>
-  <div class="container pt-3">
+  <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
         <img :src="singleView.thumbnail" class="single-image" />

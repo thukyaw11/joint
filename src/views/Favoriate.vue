@@ -1,5 +1,5 @@
 <template>
-  <div class="favoriate">
-    <h1>This is a favoriate page</h1>
+  <div class="favoriate container">
+    <h1 id="comming">Coming Soon</h1>
   </div>
 </template>
