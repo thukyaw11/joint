@@ -2,6 +2,7 @@
   <div id="nav">
       <a-icon type="menu-unfold" id="menuDrawer" @click="showDrawer"/> <h4 id="header">Jointify</h4>
     <a-drawer
+      headerStyle
       title="Jointify"
       :placement="placement"
       :closable="false"
@@ -9,9 +10,9 @@
       :visible="visible"
     >
   
-      <router-link to="/"><span @click="onClose" class="nav-item">home</span></router-link><br>
-      <router-link to="/article"><span @click="onClose" class="nav-item">Article</span></router-link><br>
-      <router-link to="/favoriate"><span @click="onClose" class="nav-item">Favouriate</span></router-link>
+      <router-link to="/"><span @click="onClose" class="nav-item"><b>Home</b></span></router-link><br><hr>
+      <router-link to="/article"><span @click="onClose" class="nav-item"><b>Article</b></span></router-link><br><hr>
+      <router-link to="/favoriate"><span @click="onClose" class="nav-item"><b>Favouriate</b></span></router-link><hr>
     
 
     </a-drawer>
@@ -51,11 +52,11 @@
   font-weight: bold;
   margin-left: 30px;
 }
-.router-link-exact-active{
-  font-size: 25px;
- transition: all 0.25s;
- cursor: pointer;
+a .nav-item{
+  line-height: 30px;
+  font-size: 20px;
 }
-
-
+headerStyle{
+  font-size: 50px;
+}
 </style>
