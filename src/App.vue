@@ -5,7 +5,7 @@
       headerStyle
       title="Jointify"
       :placement="placement"
-      :closable="false"
+      :closable="true"
       @close="onClose"
       :visible="visible"
     >
@@ -56,7 +56,8 @@ a .nav-item{
   line-height: 30px;
   font-size: 20px;
 }
-headerStyle{
-  font-size: 50px;
+.router-link-exact-active{
+  opacity: 0.6;
 }
+
 </style>
