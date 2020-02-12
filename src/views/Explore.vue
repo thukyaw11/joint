@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <a-input-search placeholder="input search text" style="width: 100%" v-model="search" class="mb-3"/>
     <Default />
     <Popular />
     <Recommend />
@@ -18,6 +19,11 @@ export default {
     Popular,
     Recommend,
     Newest
+  },
+  data () {
+    return {
+      search : ""
+    } 
   }
 };
 </script>
@@ -61,9 +67,11 @@ export default {
 .book_author {
   text-align: left;
   padding: 0 9px 0 9px;
+  float: left;
 }
 .image:hover {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
   transition: 1s;
 }
+
 </style>

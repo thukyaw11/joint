@@ -59,5 +59,11 @@ a .nav-item{
 .router-link-exact-active{
   opacity: 0.6;
 }
+#reset-button{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0px 25px 25px 0; 
+}
 
 </style>

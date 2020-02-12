@@ -21,8 +21,8 @@
     >
       <div>
         <network network="facebook">
-          <a-icon type="facebook" :style="{ fontSize: '30px', color: '#08c' , float: 'right' }" />
-          <h5 style="float:right">Share article on</h5>
+          <a-icon type="facebook" :style="{ fontSize: '25px', color: '#08c' , float: 'right' }" />
+          <h5 style="float:right">Share article on </h5>
 
         </network>
       </div>
@@ -42,6 +42,7 @@ export default {
       singleView: [],
       localId : [],
       prasedID : '',
+      description : '',
       itemsArray: localStorage.getItem('value') ? JSON.parse(localStorage.getItem('value')) : [],
     };
   },
@@ -59,6 +60,7 @@ export default {
     this.singleView = this.populars[this.$props.id - 1];
 
         this.localId = localStorage.getItem('value');
+        if(this.localId){
         this.prasedID = JSON.parse(this.localId);
       
         this.prasedID.forEach(singleID => {
@@ -67,6 +69,9 @@ export default {
             this.singleView.favouriate = true;
           }    
         });
+
+          }
+
   }
 };
 
