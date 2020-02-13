@@ -1,45 +1,31 @@
 <template>
   <div class="container">
-    <div class="row">
-      <div
-        v-for="favouriate in favouriates"
-        v-bind:key="favouriate.id"
-        id="defalut_container"
-        class="col-12 col-sm-4"
-      >
-        <router-link :to="`/viewBlogPopular/${favouriate.id}`">
-        <img :src="favouriate.thumbnail" class="image-default mb-1" />
-        </router-link>
-        <h3 class="book_title_default">{{favouriate.title}}</h3>
-        <h6 class="book_author_default mb-3">{{favouriate.author}}</h6>
-       
-      </div>
-    </div>
+    <h4 class="mb-5"> Your Collection ...</h4>
+    <DefaultFav />
+    <RecommendFav />
+    <PopularFav />
+    <NewestFav />
         <a-button type="danger" id="reset-button" @click="removeFav">Reset All</a-button>
+
   </div>
 </template>
-
 <script>
-/* eslint-disable no-console */
+import DefaultFav from "../components/DefaultFav";
+import RecommendFav from "../components/RecommendFav";
+import PopularFav from "../components/PopularFav";
+import NewestFav from "../components/NewestFav"
 export default {
-  data() {
-    return {
-      favouriates: localStorage.getItem("value")
-        ? JSON.parse(localStorage.getItem("value"))
-        : []
-    };
-  },
-  mounted() {
-    this.favouriate = JSON.parse(localStorage.getItem("value"));
-    
+  components : {
+    DefaultFav,
+    RecommendFav,
+    PopularFav,
+    NewestFav
   },
   methods : {
     removeFav() {
-      localStorage.removeItem("value");
+      localStorage.clear();
       window.location.reload();
     }
   }
-};
-
-/* eslint-enable no-console */
+}
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="row">
+  <div class="row mt-3">
     <div
       v-for="defaultt in defaultts"
       v-bind:key="defaultt.id"
@@ -9,7 +9,7 @@
       <router-link :to="`/viewBlogDefaultt/${defaultt.id}`">
         <img :src="defaultt.thumbnail" class="image-default mb-1" />
       </router-link>
-      <h3 class="book_title_default">{{defaultt.title}}</h3>
+      <h4 class="book_title_default">{{defaultt.title}}</h4>
       <h6 class="book_author_default mb-3">{{defaultt.author}}</h6>
       <hr>
     </div>
@@ -39,5 +39,6 @@ export default {
 }
 .book_title_default{
     font-weight: bold;
+    line-height: 40px;
 }
 </style>

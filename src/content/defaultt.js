@@ -28,11 +28,30 @@ export let Defaultt= [
     },
     {
         id: 4,
-        title: "&lth1&gtHello&lt/h1&gt",
-        author: "Aldi paratama",
+        title: "အချစ်ဆိုတာဘာလဲ ?",
+        author: "unknown",
         thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
+            "https://i0.wp.com/cosmic-orgasm.com/wp-content/uploads/2016/01/puuung-love-is-illustration-art-book-cosmic-orgasm-lovers-daily-life-small-things-romance-kiss-face.jpg?resize=970%2C568",
+        description: `ကျွန်မ အချစ် နဲ့ပတ်သက်ပြီး ဘာအတွေ့အကြုံမှမရှိဘူးသူ။
+        ကျွန်မကိုကျွန်မ မေးခွန်းများစွာ ပြန်မေးတက်၏။ ငါချစ်တက်ရဲ့လား အချစ်ဆိုတာဘယ်လိုခံစားမှုမျိုးလည်း ကျွန်မ မသိပါ။ တစ်ခါမျှမချစ်တက်ဖူး၍လည်းဖြစ်တန်ကောင်း၏။ အသည်းကွဲမှာကြောက်၍ မချစ်ချင်တာလည်း ဖြစ်တန်ကောင်း၏။ မိမိရှေ့တွင် ပြတ်လိုက်တွဲလိုက်နှင့် သူတို့ကိုယ်သူတို့ ဘာခံစားနေမှန်းမသိအောင် ဖြစ်နေသောလူများကိုတွေ့၍ အချစ်ကိုစိတ်ကုန်နေသောကြောင့်လည်း ဖြစ်ဟန်တူသည်။ တစ်ခါမျှမတွေ့ကြုံဖူးသောကြောင့် မစမ်းသပ်ချင်သေးတာလည်း ဖြစ်ဟန်တူသည်။
+       အချစ်ရှိမှ ဘ၀ပြည့်စုံသည်ဟု ယူဆထားသော လူများထဲတွင် ကျွန်မမပါပါ။ ဘယ်နှစ်ကြိမ်အသဲကွဲဖူးလို့ မချစ်ချင်တာလည်းဟူ‌ေသာမေးခွန်းတွင် ကျွန်မမှာ အဖြေမရှိပါ။ ဆယ့်ရှစ်နှစ်အရွယ်ကျွန်မကိုယ် ကျွန်မတော့ ရည်းစားတစ်ခါမျှ မထားဖူး၍ ဘယ်တော့မှ အားမငယ်ဖူး။
+        အထက်တန်းကျောင်းမှသူငယ်ချင်းက“ဟယ်.....တက္ကသိုလ်ရောက်တာနဲ့ ရည်းစားထားရမှာလား”
+       ကျွန်မ မူလတန်းမှတက္ကသိုလ်၀င်တန်း အထိ ထိုသို့သောမေးခွန်းမျိုး တခါမျှမတွေးမိပါ။
+        တက္ကသိုလ်ရောက်လျှင် ငါအိမ်နဲ့ခွဲနေရတော့မှာဘဲ၊ ငါစာတွေလိုက်မှ လိုက်နိုင်ပါ့မလား၊ သူငယ်ချင်းမှ ရပါ့မလားဟူသော အတွေးများဖြင့်သာ ကျွန်မ တက္ကသိုလ်သို့ ရောက်ရှိလာခဲ့သည်။
+        ချစ်သူမရှိသော ကျွန်မကို သူတို့ ကောင်လေးနှင့် ရန်ဖြစ်တိုင်း လာတိုင်ပင်သည်ကား ကျွန်မသူငယ်ချင်းပင် ဖြစ်သည်။
+         ကျွန်မဘာမှမသိသည်ကိုလည်း သူတို့သိသည် သို့သော်အဘယ့်ကြောင့်လာတိုင်ပင်လည်း စဥ်းစားလို့မရ။ ကျွန်မအချစ်ရေးစာအုပ်များ ဖတ်တက်၍ တိုင်ပင်ဆွေးနွေးဟန်တူသည်။
+          ကျွန်မသူငယ်ချင်းက သူ့ချစ်သူနှင့် ရန်ဖြစ်သည့်အခါတိုင်း“ဟဲ့.....ငါသူ့ကိုတော်တော်စိတ်ကုန်နေပြီ ဘယ်လိုလုပ်ရမလဲ” ပြောတိုင်း ကျွန်မ ဘာမှမစဉ်းစားဘဲပြောတက်သော စကားတစ်လုံးက“ဟဲ့....နင်ဖြတ်လိုက်တော့ စိတ်ရှုတ်မခံနှင့်”ဟူ၍ဖြစ်သည်။ ထိုသို့ပြောလိုက်ပြီး တစ်ရက်နှစ်ရက်အကြာတွင် ငါတို့ပြန်တည့်သွားပြီဟူ၍ ကြည်နူးစရာ လာပြောတက်သည်။
+        ထိုအချိန်တွင် ကျွန်မစဉ်းစားသည် ပြတ်မယ်ပြောတာလည်း သူတို့ဘဲ မချစ်တော့ဘူးပြောတာလည်း သူတို့ဘဲ ပြန်တည့်သွားတော့လည်း သူတို့ဘဲ အချစ်ဆိုတာ ဘယ်လိုပါလိမ့် ဟု တွေးနေမိတက်၏။
+        သေချာတာတစ်ခုက အချစ်ဆိုတဲ့အရာကို ကျွန်မ မခံစားမိသေးတာ၊ ချစ်ရမှာကြောက်လန့်နေတာ၊ ဒါကြောင့်မစမ်းသပ်ဖူးချင်တာဘဲလို့ ကျွန်မကိုယ်ကျွန်မ ထင်၏။
+        အချစ်၀တ္ထုပေါင်းများစွာ ဖတ်တက်၍ ခံစားတက်သော သူမှာလည်း ကျွန်မဖြစ်သည်။ အချစ်ကိုပုံအပ်လိုက်လျှင် ရုံးမထွက်နိုင်မှာစိုး၍ ကျွန်မကိုယ်ကျွန်မ ကြောက်လန့်နေသည်သာဖြစ်သည်။
+        ချစ်သူထားလိုက်လျှင် သူတစ်ပါး၏ စိတ်၀င်စားခြင်းခံရမှာလည်း ကြောက်လန့်မိ၏ သို့သော် ချစ်သူ မထားဖူး၍ အားငယ်နေသည့် လူထဲတွင် ကျွန်မ မပါ။ ဆယ်ကျော်သက်မိန်းကလေး ဘ၀တွင် အချစ်မပါဘဲနှင့်လည်း ပျော်ရွှင်ရသည် ဟုခံယူထားသူသာဖြစ်သည်။
+       အချစ်အကြောင်း ကျွန်မကိုယ်ကျွန်မ ဪိုသိအောင် ကြိုးစားရပေအုံးမည်။ တစ်နေ့နေ့တော့ချစ်တက်အောင် ကြိုးစားနေထိုင်ရပေအုံးမည်။ 
+      “အချစ်ဆိုတာ ရွှေရှာတာမဟုတ်ဘူး ငွေရှာတာမဟုတ်ဘူး အချိုရှာတာပါကိုကုရယ်” ဟူသောအချစ်၏ အချိုအရသာကို တွေ့အောင် ရှာဖူးရပေအုံးမည်။
+        အချစ်သည် အမြဲတမ်းတော့ မချိုနိုင် ရံဖန်ရံခါ ခါးတက်၏။ ထိုခါးသက်သော အရသာကို အန်တုရင်း ချစ်တက်အောင် နေထိုင်ဖူးရပေမည်။
+       အချစ်မရှိဘဲ မနေတက်၍မဟုတ်၊ အချစ်၏ အနှစ်အရသာကို လူ့ဘ၀တွင် ခံစားဖူးချင်၍ သာဖြစ်သည်။
+        ယခုအချိန်မှာတော့ လွတ်လပ်ပျော်ရွှင်ခြင်း၏ ဆိမ့်သက်သော အရသာအား အချစ်၏ မာယာများသော အရသာများနှင့် မလဲနိုင်သေး။
+        ရွယ်တူများကြားတွင် အချစ်မရှိဘဲ အေးအေးဆေးဆေး နေတက်သော အပူအပင်ကင်းသော အချစ်၏ အရသာကို မခံစားဖူးသော မချစ်ချင်သေးသော မိန်းကလေးတစ်ယောက်အနေဖြင့်သာ ဘ၀ ကို ရှေ့ဆက်အုံးမည်။ သို့ဖြင့် ဘ၀ခရီးတစ်လျှောက် ဖြတ်သန်းလာရင်း အချစ်၏ ချိုသောမာယာအား အပြုံးလေးဖြင့် ခံစားခွင့်ရပါလျှင် ခံစားကြည့်ချင်သေးသည်။
+`,
         favouriate: false
     },
     {

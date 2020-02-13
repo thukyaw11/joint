@@ -43,7 +43,7 @@ export default {
       localId : [],
       prasedID : '',
       description : '',
-      itemsArray: localStorage.getItem('value') ? JSON.parse(localStorage.getItem('value')) : [],
+      itemsArray: localStorage.getItem('newest') ? JSON.parse(localStorage.getItem('newest')) : [],
     };
   },
   methods : {
@@ -51,7 +51,7 @@ export default {
       if(!this.singleViewNewest.favouriate){
         this.singleViewNewest.favouriate = !this.singleViewNewest.favouriate;
         this.itemsArray.push(this.singleViewNewest);    
-        localStorage.setItem("value",JSON.stringify(this.itemsArray));
+        localStorage.setItem("newest",JSON.stringify(this.itemsArray));
 
       }
     }
@@ -59,7 +59,7 @@ export default {
   mounted() {
     this.singleViewNewest = this.newests[this.$props.id - 1];
 
-        this.localId = localStorage.getItem('value');
+        this.localId = localStorage.getItem('newest');
         if(this.localId){
         this.prasedID = JSON.parse(this.localId);
       

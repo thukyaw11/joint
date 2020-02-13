@@ -43,7 +43,7 @@ export default {
       localId : [],
       prasedID : '',
       description : '',
-      itemsArray: localStorage.getItem('value') ? JSON.parse(localStorage.getItem('value')) : [],
+      itemsArray: localStorage.getItem('recommend') ? JSON.parse(localStorage.getItem('recommend')) : [],
     };
   },
   methods : {
@@ -51,7 +51,7 @@ export default {
       if(!this.singleViewRecommend.favouriate){
         this.singleViewRecommend.favouriate = !this.singleViewRecommend.favouriate;
         this.itemsArray.push(this.singleViewRecommend);    
-        localStorage.setItem("value",JSON.stringify(this.itemsArray));
+        localStorage.setItem("recommend",JSON.stringify(this.itemsArray));
 
       }
     }
@@ -59,7 +59,7 @@ export default {
   mounted() {
     this.singleViewRecommend = this.recommends[this.$props.id - 1];
 
-        this.localId = localStorage.getItem('value');
+        this.localId = localStorage.getItem('recommend');
         if(this.localId){
         this.prasedID = JSON.parse(this.localId);
       
