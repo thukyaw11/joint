@@ -4,12 +4,12 @@
       <h5 style="font-weight:bold;">Recommended</h5>
     </div>
     <div class="scrollMenu">
-      <div v-for="popular in populars" v-bind:key="popular.id">
-        <router-link :to="`/viewBlog/${popular.id}`">
-          <img :src="popular.thumbnail" alt class="image" />
+      <div v-for="recommend in recommends" v-bind:key="recommend.id">
+        <router-link :to="`/viewBlogRecommend/${recommend.id}`">
+          <img :src="recommend.thumbnail" alt class="image" />
         </router-link>
-        <p class="book_title">{{popular.title}}</p>
-        <p class="book_author">{{popular.author}}</p>
+        <p class="book_title">{{recommend.title}}</p>
+        <p class="book_author">{{recommend.author}}</p>
       </div>
     </div>
   </div>
@@ -17,11 +17,11 @@
 
 <script>
 /* eslint-disable no-console */
-import { Popular } from "../content/popular";
+import { Recommend } from "../content/recommended";
 export default {
   data() {
     return {
-      populars: Popular
+      recommends : Recommend
     };
   }
 };

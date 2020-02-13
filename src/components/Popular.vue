@@ -5,7 +5,7 @@
     </div>
     <div class="scrollMenu">
       <div v-for="popular in populars" v-bind:key="popular.id">
-        <router-link :to="`/viewBlog/${popular.id}`">
+        <router-link :to="`/viewBlogPopular/${popular.id}`">
           <img :src="popular.thumbnail" alt class="image" />
         </router-link>
         <p class="book_title">{{popular.title}}</p>

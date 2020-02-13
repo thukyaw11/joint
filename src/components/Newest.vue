@@ -4,12 +4,12 @@
       <h5 style="font-weight:bold;">Newest</h5>
     </div>
     <div class="scrollMenu">
-      <div v-for="popular in populars" v-bind:key="popular.id">
-        <router-link :to="`/viewBlog/${popular.id}`">
-          <img :src="popular.thumbnail" alt class="image" />
+      <div v-for="newest in newests" v-bind:key="newest.id">
+        <router-link :to="`/viewBlogNewest/${newest.id}`">
+          <img :src="newest.thumbnail" alt class="image" />
         </router-link>
-        <p class="book_title">{{popular.title}}</p>
-        <p class="book_author">{{popular.author}}</p>
+        <p class="book_title">{{newest.title}}</p>
+        <p class="book_author">{{newest.author}}</p>
       </div>
     </div>
   </div>
@@ -17,11 +17,11 @@
 
 <script>
 /* eslint-disable no-console */
-import { Popular } from "../content/popular";
+import { Newest } from "../content/newest";
 export default {
   data() {
     return {
-      populars: Popular
+      newests: Newest
     };
   }
 };

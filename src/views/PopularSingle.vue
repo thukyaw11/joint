@@ -2,19 +2,19 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
-        <img :src="singleView.thumbnail" class="single-image mb-3" /> 
-        <a-icon type="heart" :style="{ fontSize: '30px', float: 'right' }" @click="addToFav"  :class="[this.singleView.favouriate?'icon heart':'icon']"/>
+        <img :src="singleViewPopular.thumbnail" class="single-image mb-3" /> 
+        <a-icon type="heart" :style="{ fontSize: '30px', float: 'right' }" @click="addToFav"  :class="[this.singleViewPopular.favouriate?'icon heart':'icon']"/>
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6" id="blog">
-        <h4 class="single-title">{{singleView.title}}</h4>
-        <p class="single-description">{{singleView.description}}</p>
+        <h4 class="single-title">{{singleViewPopular.title}}</h4>
+        <p class="single-description">{{singleViewPopular.description}}</p>
       </div>
     </div>
 
     <social-sharing
-      :url="'https://jointfy.netlify.com/#/viewBlog/'+singleView.id"
-      :title="singleView.title"
-      :description="singleView.description"
+      :url="'https://jointfy.netlify.com/#/viewBlogPopular/'+singleViewPopular.id"
+      :title="singleViewPopular.title"
+      :description="singleViewPopular.description"
       hashtags="jointify,vuejs"
       twitter-user="vuejs"
       inline-template
@@ -39,7 +39,7 @@ export default {
   data() {
     return {
       populars: Popular,
-      singleView: [],
+      singleViewPopular: [],
       localId : [],
       prasedID : '',
       description : '',
@@ -48,25 +48,25 @@ export default {
   },
   methods : {
     addToFav() {
-      if(!this.singleView.favouriate){
-        this.singleView.favouriate = !this.singleView.favouriate;
-        this.itemsArray.push(this.singleView);    
+      if(!this.singleViewPopular.favouriate){
+        this.singleViewPopular.favouriate = !this.singleViewPopular.favouriate;
+        this.itemsArray.push(this.singleViewPopular);    
         localStorage.setItem("value",JSON.stringify(this.itemsArray));
 
       }
     }
   },
   mounted() {
-    this.singleView = this.populars[this.$props.id - 1];
-
+    this.singleViewPopular = this.populars[this.$props.id - 1];
+  console.log(this.singleViewPopular.title);
         this.localId = localStorage.getItem('value');
         if(this.localId){
         this.prasedID = JSON.parse(this.localId);
       
         this.prasedID.forEach(singleID => {
          
-          if(singleID.id == this.singleView.id){
-            this.singleView.favouriate = true;
+          if(singleID.id == this.singleViewPopular.id){
+            this.singleViewPopular.favouriate = true;
           }    
         });
 

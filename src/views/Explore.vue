@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <a-input-search placeholder="input search text" style="width: 100%" v-model="search" class="mb-3"/>
-    <Default />
+    <Defaultt />
     <Popular />
     <Recommend />
     <Newest />
@@ -12,10 +12,10 @@
 import Popular from "../components/Popular";
 import Recommend from '../components/Recommend';
 import Newest from '../components/Newest';
-import Default from '../components/Default'
+import Defaultt from '../components/Defaultt'
 export default {
   components: {
-    Default,
+    Defaultt,
     Popular,
     Recommend,
     Newest

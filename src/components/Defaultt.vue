@@ -1,16 +1,16 @@
 <template>
   <div class="row">
     <div
-      v-for="popular in populars"
-      v-bind:key="popular.id"
+      v-for="defaultt in defaultts"
+      v-bind:key="defaultt.id"
       id="defalut_container"
       class="col-12 col-sm-4"
     >
-      <router-link :to="`/viewBlog/${popular.id}`">
-        <img :src="popular.thumbnail" class="image-default mb-1" />
+      <router-link :to="`/viewBlogDefaultt/${defaultt.id}`">
+        <img :src="defaultt.thumbnail" class="image-default mb-1" />
       </router-link>
-      <h3 class="book_title_default">{{popular.title}}</h3>
-      <h6 class="book_author_default mb-3">{{popular.author}}</h6>
+      <h3 class="book_title_default">{{defaultt.title}}</h3>
+      <h6 class="book_author_default mb-3">{{defaultt.author}}</h6>
       <hr>
     </div>
 
@@ -18,13 +18,14 @@
 </template>
 <script>
 /* eslint-disable no-console */
-import { Popular } from "../content/popular";
+import { Defaultt } from "../content/defaultt";
 export default {
   data() {
     return {
-      populars: Popular
+      defaultts : Defaultt
     };
   }
+
 };
 
 /* eslint-enable no-console */

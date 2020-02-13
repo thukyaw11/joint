@@ -1,7 +1,7 @@
-export let Popular = [
+export let Defaultt= [
     {
         id: 1,
-        title: "ကျွန်တော်တို့ social media ဘယ်လိုသုံးနေကြလဲ ဘယ်လိုသုံးမလဲ။",
+        title: "ကျွန်တော်တို့ social default ဘယ်လိုသုံးနေကြလဲ ဘယ်လိုသုံးမလဲ။",
         author: "Nay Yaung Linn Lakk",
         thumbnail:
             "https://cdn.dribbble.com/users/2705516/screenshots/7091320/media/3199d3cac20290479a24bfca6431f764.jpg",

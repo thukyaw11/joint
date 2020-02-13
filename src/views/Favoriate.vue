@@ -7,7 +7,7 @@
         id="defalut_container"
         class="col-12 col-sm-4"
       >
-        <router-link :to="`/viewBlog/${favouriate.id}`">
+        <router-link :to="`/viewBlogPopular/${favouriate.id}`">
         <img :src="favouriate.thumbnail" class="image-default mb-1" />
         </router-link>
         <h3 class="book_title_default">{{favouriate.title}}</h3>
