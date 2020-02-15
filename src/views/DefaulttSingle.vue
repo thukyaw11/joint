@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+  <a-skeleton :loading="loading" :paragraph="{rows: 20}">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
         <img :src="singleViewDefault.thumbnail" class="single-image mb-3" /> 
@@ -27,6 +28,7 @@
         </network>
       </div>
     </social-sharing>
+  </a-skeleton>
   </div>
 </template>
 
@@ -44,6 +46,7 @@ export default {
       prasedID : '',
       description : '',
       itemsArray: localStorage.getItem('defaultt') ? JSON.parse(localStorage.getItem('defaultt')) : [],
+      loading : true
     };
   },
   methods : {
@@ -73,6 +76,9 @@ export default {
         });
 
           }
+      setTimeout(()=>{
+        this.loading = false
+      },2000);
 
   }
 };

@@ -9,14 +9,20 @@ import Drawer from "ant-design-vue/lib/drawer";
 import SocialSharing from "vue-social-sharing";
 import Button from "ant-design-vue/lib/button";
 import Input from "ant-design-vue/lib/input";
+import NProgress from "vue-nprogress"
+import VueRouter from "vue-router";
+import Skeleton from "ant-design-vue/lib/skeleton";
 Vue.config.productionTip = false;
 Vue.use(Icon);
 Vue.use(Card);
 Vue.use(Drawer);
 Vue.use(Button);
 Vue.use(Input);
-
+Vue.use(NProgress);
+Vue.use(VueRouter);
 Vue.use(SocialSharing);
+Vue.use(Skeleton);
+
 new Vue({
   router,
   render: h => h(App)

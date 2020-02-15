@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <a-input-search placeholder="input search text" size="large" v-model="search" />
+    <a-input-search placeholder="input search text" size="large" v-model="search" id="searchBox" />
     <hr />
 
     <div
@@ -53,6 +53,10 @@ export default {
   },
   mounted () {
       this.itemsArray.push(this.newests,this.defaults,this.recommends,this.populars);
+
+      document.getElementById("searchBox").focus();
+
+
   }
 };
 

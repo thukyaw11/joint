@@ -18,7 +18,9 @@
     
 
     </a-drawer>
-  <router-view></router-view>
+    <!-- <transition enter-active-class="animated slideInLeft" leave-active-class="animated slideOutRight"> -->
+      <router-view></router-view>    
+    <!-- </transition> -->
 
   </div>
 </template>
@@ -45,6 +47,9 @@
 </script>
 
 <style>
+/* @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"; */
+
+
 #menuDrawer{
   font-size: 30px;
   padding: 20px;

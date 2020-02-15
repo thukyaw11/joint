@@ -63,6 +63,24 @@ export let Defaultt= [
         description: `JavaScript is easier to learn, but I would say harder to master. Sure, anyone can wire up jQuery animations and event handlers and say they are competent with JavaScript. How many JavaScript developers can explain to you how the prototype system works; how the this mechanism works; how to handle asynchronous flow; how the latest features such as Promises, Async functions, Generators, Data types, and more all work; and how to implement design patterns such as functional programming, behavior delegation, closures, modules (UMD, CommonJS, ES6), and others? How many of those who know these things can apply it all too real life situations with so many libraries, frameworks, and tools that they are supposed to know? No, JavaScript isn’t really easier to learn, at least learn well. When it comes to the tricky parts in JS, many developers fall back to their safety net of traditional approaches: callbacks and promises are too hard, I want threads; functional programming and behavior delegation is confusing, why can’t I just have super complex hierarchical patterns with classes; no static types?!?, my programs will be full of bugs… blah, blah, blah. The list goes on and on, and on and on, and on and on.
         Java is more traditional. It uses classes, static typing, etc. You shouldn’t be surprised by a lot of behavior in Java once you learn it. JavaScript is different, as there are quirky things that take time to master. That doesn’t mean you shouldn’t learn the language.`,
         favouriate: false
+    },
+    {
+        id: 6,
+        title: "The Highlights of Paris, France",
+        author: "Aldi paratama",
+        thumbnail:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
+        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
+        favouriate: false
+    },
+    {
+        id: 7,
+        title: "The Highlights of Paris, France",
+        author: "Aldi paratama",
+        thumbnail:
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
+        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
+        favouriate: false
     }
    
 ];
