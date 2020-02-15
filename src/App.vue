@@ -1,6 +1,8 @@
 <template>
   <div id="nav">
       <a-icon type="menu-unfold" id="menuDrawer" @click="showDrawer"/> <h4 id="header">Jointify</h4>
+
+      <router-link to="/search"><a-icon type="search" id="searchButton"/></router-link>
     <a-drawer
       headerStyle
       title="Jointify"
@@ -11,8 +13,8 @@
     >
   
       <router-link to="/"><span @click="onClose" class="nav-item"><b>Home</b></span></router-link><br><hr>
-      <router-link to="/article"><span @click="onClose" class="nav-item"><b>Article</b></span></router-link><br><hr>
-      <router-link to="/favoriate"><span @click="onClose" class="nav-item"><b>Favouriate</b></span></router-link><hr>
+      <router-link to="/favoriate"><span @click="onClose" class="nav-item"><b>Favouriate</b></span></router-link><br><hr>
+      <router-link to="/team"><span @click="onClose" class="nav-item"><b>Meet the team</b></span></router-link><br>
     
 
     </a-drawer>
@@ -64,6 +66,11 @@ a .nav-item{
   bottom: 0;
   right: 0;
   margin: 0px 25px 25px 0; 
+}
+#searchButton{
+  float: right;
+  font-size: 25px;
+  padding: 20px;
 }
 
 </style>

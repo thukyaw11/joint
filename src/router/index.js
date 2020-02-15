@@ -5,6 +5,7 @@ import PopularSingle from "../views/PopularSingle.vue";
 import NewestSingle from "../views/NewestSingle.vue";
 import DefaulttSingle from "../views/DefaulttSingle.vue";
 import RecommendSingle from "../views/RecommendSingle.vue";
+import Search from "../views/Search.vue";
 Vue.use(VueRouter); 
 
 
@@ -15,13 +16,13 @@ const routes = [
     component: Explore
   },
   {
-    path: "/article",
-    name: "article",
+    path: "/team",
+    name: "team",
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/Article.vue")
+      import(/* webpackChunkName: "about" */ "../views/Team.vue")
   },
   {
     path: "/favoriate",
@@ -55,6 +56,11 @@ const routes = [
     name : "viewBlogDefaultt",
     props : true,
     component : DefaulttSingle
+  },
+  {
+    path: "/search",
+    name : "search",
+    component : Search
   }
 
 ];

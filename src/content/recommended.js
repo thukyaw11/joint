@@ -43,51 +43,5 @@ export let Recommend= [
             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
         description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
         favouriate: false
-    },
-    {
-        id: 6,
-        title: "The Highlights of Paris, France",
-        author: "Aldi paratama",
-        thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
-        favouriate: false
-
-    },
-    {
-        id: 7,
-        title: "The Highlights of Paris, France",
-        author: "Aldi paratama",
-        thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
-        favouriate: false
-    },
-    {
-        id: 8,
-        title: "The Highlights of Paris, France",
-        author: "Aldi paratama",
-        thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
-        favouriate: false
-    },
-    {
-        id: 9,
-        title: "The Highlights of Paris, France",
-        author: "Aldi paratama",
-        thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
-        favouriate: false
-    },
-    {
-        id: 10,
-        title: "The Highlights of Paris, France",
-        author: "Aldi paratama",
-        thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
-        favouriate: false
     }
 ];

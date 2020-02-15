@@ -1,11 +1,16 @@
 export let Popular = [
     {
         id: 1,
-        title: "ကျွန်တော်တို့ social media ဘယ်လိုသုံးနေကြလဲ ဘယ်လိုသုံးမလဲ။",
-        author: "Nay Yaung Linn Lakk",
+        title: "Google နဲ့ Facebook ဘယ်လိုကြော်ငြာကြသလဲ...",
+        author: "BanMaw Thein Phay",
         thumbnail:
-            "https://cdn.dribbble.com/users/2705516/screenshots/7091320/media/3199d3cac20290479a24bfca6431f764.jpg",
-        description: "အခုလက်ရှိ အနေအထားကို ကြည့်မယ်ဆိုရင်ဗျာ .. ကျွန်တော်တို့လူငယ်တွေက အချိန်တော်တော်များများကို Social Media ပေါ်မှာ ကုန်ဆုံးနေကြတယ်။Trends နောက်လိုက်ကြတယ်၊ Poppin တွေနောက်လိုက်ကြတယ်။ ၁၀၀ ဖိုး ၃ပုဒ်တွေ share ပြီး အချိန်တွေကို ကုန်ဆုံးနေကြတယ်။ မသုံးနဲ့တော့ မဟုတ်ဘူး။ သုံးပါ။ အလွန်အကျွန်သုံးရင် တစ်ဖက်မှာ Human Resources ကိုကျဆင်းစေတယ်။ Facebook ကိုလည်း အပြစ်ပြောတာတော့ မဟုတ်ပါဘူး။ဆိုလိုတာက အသိပညာအသစ်တစ်ခု လေ့လာကြည့်မယ်ဆိုပါစို့။ English စာ အားနည်းတယ်ဆိုရင် မြန်မာလို လေ့လာလိုရမယ့် နေရာတွေမရှိဘူး။ ရှားပါးလွန်းနေသေးတယ်။ ကိုယ့်ရဲ့ knowledge တွေ မျှဝေဖို့အတွက်လည်း Facebook က ရေရှည်အဆင်မပြေပြန်ဘူး။ဆိုတော့ ကျွန်တော်ပေးချင်တဲ့ message လေးကအဲ့လို E-learning platform တွေ၊ Sharing forum တွေရှိနေမယ် ဆိုရင် Facebook ထဲကနေ အနည်းနဲ့အများရုန်းထွက်နိင်မယ်ထင်တယ်၊Self-study သမားတွေအတွက်လည်းအဆင်ပြေမယ်။ ကျွန်တော်ကိုယ်တိုင်လည်း E-learning platform တစ်ခုဆောက်ဖို့ ကြိုးစားနေတယ်။အခုလက်ရှိလည်း app အသစ်တွေကို developing လုပ်နေကြတာတွေ့ရပါတယ်။ ပြောရရင် ကျွန်တော်အပါအ၀င် လူငယ်တွေအားလုံး အားကိုးရတဲ့ E-learning platform တွေပေါ်ပေါက်စေချင်တယ်။ ကျွန်တော် စဉ်းစားပြီး ညဏ်မှီသလောက်လေးရေးထားတာပါ။ စာဖတ်သူတွေအနေနဲ့ အောက်မှာ ကိုယ့် အတွေးလေးတွေ ရေးပေးသွားကြပါလို တောင်းဆိုပါတယ်။",
+            "https://scontent.fnyt1-1.fna.fbcdn.net/v/t1.0-9/s960x960/69810884_2141487099329548_8143393224556281856_o.png?_nc_cat=102&_nc_ohc=QsVO6oniEq8AX8536KC&_nc_ht=scontent.fnyt1-1.fna&oh=d4a1e17c286873bd1f3e06b132ccaf3f&oe=5F02636C",
+        description: `➡️Google လို ကုမ္ပဏီတွေ ဘယ်လိုကြော်ငြာကြသလဲ
+
+        Google ရဲ့ကြော်ငြာပုံက ဒီလိုပါ။ လူတစ်ယောက်ဟာ စကားလုံးတစ်လုံးရဲ့ အဓိပ္ပာယ်၊ ဒါမှမဟုတ် သက်ဆိုင်တဲ့ အကြောင်းအရာကို google website မှာ search လုပ်ရှာကြည့်လိုက်ရင် စကားလုံးရဲ့ အဓိပ္ပာယ်နဲ့ သက်ဆိုင်တဲ့ အကြောင်းအရာတွေအပြင် (စကားလုံးနဲ့ပတ်သတ်တဲ့) ကြော်ငြာ website တွေပါ ကွန်ပျူတာမှာပေါ်လာပါတယ်။ ဥပမာ။ လူတစ်ယောက်က google မှာ digital camera ဆိုတဲ့စကားလုံးကို ရိုက်ထည့်ပြီး search ခလုတ်ကိုနှိပ်ပြီးရှာလိုက်ရင် digital camera ရဲ့ အဓိပ္ပာယ်နဲ့ သက်ဆိုင်တဲ့ အကြောင်းအရာတွေအပြင် Canon,Nikon,Sony စတဲ့ ကင်မရာကုမ္ပဏီကြီးတွေရဲ့ website လိပ်စာတွေ၊နောက်ပြီး ကင်မရာနဲ့ မှန်ဘီလူးအရောင်းဆိုင်တွေ၊ ကင်မရာအငှားဆိုင်၊ ကင်မရာပြင်ဆိုင်၊ ဓာတ်ပုံကူးဆိုင်၊ ကင်မရာနဲ့ပတ်သတ်တဲ့ ပစ္စည်းရောင်းဆိုင်တွေနဲ့ ၀က်ဆိုက်လိပ်စာတွေ အများကြီး ကွန်ပျူတာမှာ ပေါ်လာပါလိမ့်မယ်။ သူတို့အားလုံးဟာ google ကို ပိုက်ဆံပေူပြီး ကြော်ငြာ ထည့်ခိုင်းထားကြတာပါ။ ကြော်ငြာတွေကို ၀င်ကြည့်သူအရေအတွက်အပေါ်မူတည်ပြီး Google က ကြော်ငြာသူဆီက ပိုက်ဆံယူပါတယ်။ ဒီနည်းနဲ့ Google ဟာကြော်ငြာခတွေကနေ နှစ်စဉ်ဒေါ်လာ ဘီလီယံပေါင်းများစွာ ရနေပါတယ်။ Yahoo,AOL,Bing,Ask.com,(တရုတ်နိုင်ငံက)Baidu စတဲ့ ကျန်တဲ့ နာမည်ကြီး search engineတွေရဲ့ ကြော်ငြာနည်းကလည်း Google ရဲ့ကြော်ငြာနည်းလိုပါပဲ
+        
+        ➡️Facebookကရော ဘယ်လိုကြော်ငြာသလဲ
+        အကြမ်းဖျင်းအရ ဒီလိုပါ။ ရုပ်ရှင်ကားတစ်ကားကို ကြော်ငြာချင်သူက Facebook ကို ကြော်ငြာပေးဖို့ အလုပ်အပ်တယ်။ ရုပ်ရှင်ကားက မြီးကောင်ပေါက်လူငယ်တွေကြိုက်မဲ့ အချစ်ဇာတ်လမ်းပါ။ Facebook ကအဲဒီရုပ်ရှင်‌ကားကြော်ငြာကို page မှာတင်ပြီး ရုပ်ရှင်ကြည့်တာဝါသနာပါတဲ့ အသက်၁၆ နှစ်နဲ့ ၁၉နှစ်ကြား လူငယ်တွေရဲ့ Facebookက homepageတွေကို newsfeed အနေနဲ့ ပို့ပေးလိုက်တယ်။ Facebookမှာမြင်ရတဲ့ ကြော်ငြာကြောင့် လူငယ်တွေအတော်များမျဟာ အဲဒီရုပ်ရှင်ကားကိုသွားကြည့်ကြလို့ ရုပ်ရှင်ကားဟာ အောင်မြင်သွားတယ်။ Facebook က ကြော်ငြာကို ဘယ်သူ့ဆီကိုပို့ရမယ်ဆိုတာကိုဘယ်လိုသိလဲ။ သူတိူ့ရဲ့data centerတွေမှာ သိမ်းထားတဲ့ ကိုယ်ရေးအချက်အလက်profile တွေကနေ အသက် ၁၆နှစ်နဲ့ ၁၉ နှစ်ကြားရှိပြီး ရုပ်ရှင်ကြည့်တာ ဝါသနာပါတယ်လို့ profile မှာဖြည့်ထားသူစာရင်းကို ဆွဲထုတ်ယူလိုက်တာပါ။ ဒါဟာ Facebook ရဲ့ ပစ္စည်းကြော်ငြာကို လိုချင်နေသူတွေဆီ တိုက်ရိုက်ပို့ပေးလိုက်တာပါ။ လိုချင်နေသူကလဲ သူလိုချင်တဲ့ပစ္စည်းကို အရံသင့်တွေ့တော့ ၀ယ်ဖြစ်သွားတဲ့ သဘောပါ။ Facebook ဟာ သန်းပေါင်းများစွာသော လူတွေရဲ့ ကိုယ်ရေးကိုယ်ဆာ အချက်အလက် တွေကို သူတို့ရဲ့ data center တွေရဲ့ ဆာဗာတွေမှာသိမ်းဆည်းထားကြတယ်။အဲဒီသိမ်းထားတဲ့ profileတွေကနေ ယောင်္ကျား မိန်းမ အသက်ဘယ်လောက်ရှိကြသလဲ၊သူတို့ရဲ့ ဝါသနာက ဘာတွေလဲ စတဲ့ လိုချင်တဲ့ အချက်အလက်တွေကို ရွေးထုတ်ယူနိုင်တယ်။ တခြား အင်တာနက် ကုမ္ပဏီတွေမှာ profile ကိုသိမ်းထားတာမျိုး မရှိကြလို့ Facebook လုပ်သလို လိုက်မလုပ်နိုင်ကြပါဘူး(၂၀၀၈) ဒါဟာ Facebookအတွက် ကြော်ငြာရာမှာ ကျန်တဲ့ အင်တာနက် ကုမ္ပဏီတွေအတွက် အားသာချက်ပါ။`,
         favouriate: false
     },
     {
@@ -14,7 +19,83 @@ export let Popular = [
         author: "Sir Aung Ko Oo",
         thumbnail:
             "https://2rksgl1kc67f453y8rekkx01-wpengine.netdna-ssl.com/wp-content/uploads/2017/02/wants-vs-needs-e1488134644672.jpg",
-        description: " လူသားတိုင်းတွင် နေ့စဉ်နှင့်အမျှ လိုအပ်ချက်များ၊ လိုချင်မှုများ မြောက်မြားစွာကို ကြုံတွေ့ကြရပါသည်။ ထိုသို့ တွေ့ကြုံကြရာတွင် အချို့သည် မရှိမဖြစ် အရေးကြီးသော်လည်း၊ အချို့မှာကား မရှိမဖြစ် အရေးမကြီးပါ ။ မရှိမဖြစ် (Essential) အရေးကြီးသော ကိစ္စများကို လိုအပ်ချက် (Need)ဟု သတ်မှတ်နိုင်ပြီး အရေးမကြီးသော (Extra)၊မိမိဆန္ဒရှိသော ကိစ္စများကို (Want)ဟု သတ်မှတ်နိုင်ပါသည်။ ထိုအချက်နှစ်ချက်ကို ကွဲကွဲပြားပြား မြင်တတ်ရန်နှင့် မှန်မှန်ကန်ကန်ဆောင်ရွက်နိုင်ရန် အရေးကြီးပါသည်။ ။ပုထုဇဉ် လူသားမှန်သမျှ လိုချင်တပ်မက်ခြင်း ဆန္ဒရှိကြသည်မှာ အမှန်ပင် ဖြစ်ပါသည်။ သက်ဆိုင်ရာ နယ်ပယ်အလိုက်၊ ပတ်ဝန်းကျင်အလိုက် လိုချင်တောင့်တကြပါလိမ့်မည်။ ဆိုလိုသည်မှာ ကလေးငယ်တယောက်က ကစားစရာ အရုပ်လှလှများကို လိုချင်မည်ဖြစ်သော်လည်း လူကြီးများကမူ iPad ကို လိုချင်မည့်သူရှိသလို Samsung Galaxy S-IV လိုချင်သူလည်း ရှိမည်။ မြေကွက်များကို ရှိမည်။ စာအုပ်များကို လိုချင်သူလည်း ရှိမည် စသည် စသည်ဖြင့်က လိုချင်တောင့်တမှု (Want)များ ရှိကြပါလိမ့်မည်။ အတူ လိုအပ်ချက် (Need)များလည်း ရှိကြပါလိမ့်မည်။ထိုအချက်နှစ်ချက်သည် ကွဲပြားသယောင်နှင့် မကွဲပြားတတ်ပါ။ ယနေ့ခေတ် လူငယ်တစ်ယောက်အနေဖြင့် သက်ဆိုင်ရာဘာသာရပ်အသီးသီးကို လေ့လာကြရာတွင် ကွန်ပျူတာတစ်လုံး (Laptop ဖြစ်စေ၊Desktop ဖြစ်စေ) လိုအပ်ကြသည်က များပါသည်။ သို့ရာတွင် ထွကွန်ပျူတာကို မည်မျှအတိုင်းအတာအထိ အသုံးပြုမည်နည်း။ ထိုအပေါ်တွင် မူတည်ကာ Want နှင့် Need ကို ခွဲခြားကြရပါမည်။ သာမန်တစ်ကိုယ်ရည် သုံးရန်အတွက်သာဖြစ်ပြီး လုပ်ငန်းသုံးရန်အတွက် မဟုတ်ပါကDualCore လောက်ဆို လုံလောက်ပါသည်။ သို့သော် သူများတကာတွေ i3, i5,i7 ဆိုလျှင် ကိုယ်ကလည်း i3, i5, i7လိုချင်ကြပါသည်။ မိမိအသုံးပြုမည့် ကိစ္စရပ်များအတွက် DualCore ဖြင့် လုံလောက်လျှင် ၎င်းသည် Need ဖြစ်ပြီး i3,i5,i7 များသည် Want ဖြစ်သည်ကိုကွဲပြားခြားနားရန် လိုပါသည်။ ကွဲပြားခြားနားသည့်အတိုင်း ဆောင်ရွက်နိုင်ရန် လပါသည်။ မိမိဆောင်ရွက်ရမည့် ကိစ္စများသည် DualCore ဖြင့် မစွမ်းနိုင်၍ i3 မှသာ ဆောင်ရွက်နိုင်မည်ဆိုလျှင် ၎င်းသည်Need ဖြစ်လာပါလိမ့်မည်။ လက်ရှိအခြေအနေဖြင့် သုံး၍ရသော်လည်းပိုကောင်းသည်ကို တောင့်တသည်မှာ Need မဟုတ်ဘဲ Want သာဖြစ်ပါသည်။ စာရေးသူလည်း iPad ၊ ကွန်ပျူတာ i7 စသည်များကိုလိုချင်ပါသည်။ သို့သော် စာရေးသူအတွက် ထိုအရာများသည် Needမဟုတ်သေးပါ။ Need ဖြစ်လာသည့် အချိန်တွင် ကြိုးစားဝယ်ယူရပါမည်။မိမိတွင် သင့်တင့လျောက်ပတ်သော အဝတ်အစားများ ရှိသော်လည်း ပွဲလမ်းသဘင်၊ အခမ်းအနား၊ မင်္ဂလာဆောင်၊ ဘွဲ့ယူ စသည်ဖြင့်တကရောက်ရန်အတွက် အဝတ်အစားကောင်းကောင်း မရှိသည့်အခါဝယ်ရမည့် အဝတ်အစားကို Need အဖြစ် သတ်မှတနိုင်သည်။ သို့ရာတွင် လစာထုတ်ရက် အပြန် Shopping Centre ကို ဝင်ပါသည်။လျှောက်ကြည့်သောအခါ အဝတ်အစား လှလှလေးများ တွေ့ပါသည်။ကြိုက်သည့်ပုံစံ၊ အဆင်လေးများ တွေ့သည့် အခါ အိတ်ထဲမှာလည်းပိုက်ဆံပါနေတော့ ဝယ်လိုက်ပါသည်။ ထိုကိစ္စမှာ Want ဖြစ်ပါသည်။ဆယ်တန်းအောင်မြင်ပြီးသည့် အချိန်တွင် ရန်ကုန်နေသူများလည်း သင်တန်များ တက်ကြသလို နယ်တွင်နေသူများကလည်းသင်တန်းတက်ရန် ရန်ကုန်သို့ လာကြပါသည်။ ကွန်ပျူတာ၊ အင်္ဂလိပ်စာ၊ LCCI HR ၊ ဆေးဝါးကျွမ်းကျင် စသည်ဖြင့် သင်တန်းမျိုးစုံကိုတက်ကာ Certificate မျိုးစုံ စုဆောင်းကြပါသည်။ စာရေးသူ၏ အချို့သော သင်တန်းသား၊ သင်တန်းသူများတွင်ရှိသော Certificateများသည် အိမ်ဆောက်သည့်အခါ အမိုးမိုး၍ပင် ရနိုင်ပါသည်။ တကယ်တမ်းအလုပ်ရှာကြသောအခါ Certificate မျိုးစုံ ပိုင်ဆိုင်ထားသော်လည်းအခက်အခဲ တွေ့ကြပါသည်။ အဓိကနှင့် သာမည မကွဲပြားသည့်ပြဿနာပင် ဖြစ်ပါသည်။ မိမိ ဘာဖြစ်ချင်သည်ကို မစဉ်းစာဘဲ အများတကာ ကောင်းသည် ကောင်းသည်ဟု ပြောကြသော သင်တန်းဟူသမျှကို တက်ကြပါသည်။ တတ်သင့်သည့် ပညာရပ်များ အားလုံးကို တတ်ကျွမ်းသည်မှကောင်းမွန်သော်လည်း မိမိလိုအပ်ချက်နှင့် ကိုက်ညီသည့်သင်တန်းများကိုသာ တက်သင့်ပါသည်။ သူနာပြုအလုပ်၊ ဆေးဝါးကိစ္စများကို စိတ်မဝင်စားဘဲ အများတကာယောင်လို့ ဆေးဝါးကျွမ်းကျင်တက်လျှင် အချည်းနှီးပင် ဖြစ်ပါလိမ့်မည်။ ထို့အတူသင်္ချာဆိုလျှင်(၁)နှင့် (၁) ပေါင်းရမည်ကိုပင် စိတ်မဝင်စားသူက LCCI တက်သောအခါ လမ်းတစ်ဝက်တွင် ရပ်သွားပလိမ့်မည်။ ဆိုလိုသည်မှာ ဆရာဝန်က LCCI တက်ဖို့ မလိုသလို B.Com ဘွဲ့ရက Graphic Designတက်ရန် မလိုအပ်ပါ။သို့သော် အမှန်တကယ် ဝါသနာပါ၍ လုပ်ငန်းပြောင်းလိုပါက တက်နိုင်ပါသည်။ ။၊ သင်တန်းမတက်မီ မိမိ ဘာလုပ်ချင်လဲ ဦးစွာစဉ်းစားရပါမည်ထိုလုပ်ငန်းအတွက် ဘာလိုအပ်လဲ (Need)ကို လေ့လာရပါမည်။ထိုလိုအပ်ချက် (Need)ကို အဓိကဖြည့်ဆည်းရပါမည်။ လိုအပ်ချက်များပြည့်စုံသည့်အခါ လုပ်ချင်သော အလုပ်ကို တစိုက်မတ်မတ် လျှောက်ကြည့်ပါ။အလျဉ်းသင့်သလို ပြောလိုသည်မှာ ရရာအလုပ်ကိုလျှောက်မနေဘဲ လုပ်ချင်တဲ့ အလုပ်ကိုပဲ ရအောင်လျှောက်ပါ။လုပ်ချင်သောသော အလုပ်အတွက် လိုအပ်ချက်များ ပြည့်စုံနေရန်တော့ လိုပါသည်။ဆရာဝန်တစ်ယောက်က ဆေးပညာကို သမိုင်းအစပငယနေ့ခေတ် နောက်ဆုံးနည်းပညာများအထိ သိအောင်၊ တတ်အောင်ကြိုးစားရပါမည်။ ကျောင်းဆရာ ဆိုပါကလည်း ပညာရေနှင့် ပတ်သက်သော ကိစ္စမှန်သမျှ တတ်ကျွမ်းပိုင်နိုင်သင့်ပါသည်။ စစ်သားကစစ်ပညာ တတ်ရပါမည်။ နိုင်ငံရေးသမားကနိုင်ငံရေး နားလည်ရပါမည်။ ယနေ့ခေတ်ကာလတွင် မည်သည့်နယ်ပယ်တွင်မဆို မိမိသက်ဆိုင်ရာ အသက်မွေးဝမ်းကျောင်းပညာရပ်ပြီးလျှင် အဓိက တတ်မြောက်ထားသင့်သည်မှာ ကွန်ပျူတာ၊ အင်္ဂလိပ်ဘာသာစကားနှင့် လူမှုဆက်ဆံရေးပညာပငဖြစ်ပါသည်။ ကျန်သည့် စီးပွားရေးအကြောင်း၊ ဘဏ်အကြောင်း၊ ဥပဒေအကြောင်း၊ ကုန်သွယ်ရေး လုပ်ငန်းအကြောင်းစသည့်နယ်ပယ်အသီးသီးကို သိကျွမ်းလျှင် ကောင်းပါသည်။ သို့သော်မိမိနယ်ပယ်နှင့် တိုက်ရိုက်မသက်ဆိုင်လျှင် အဓိက မကျလှပါ။လိုအပ်လာပါက တတ်ကျွမ်းသူများနှင့် တိုင်ပင်ကာ ဆောင်ရွက်နိုင်ပါသည်။လူတိုင်းသည် မိမိသက်ဆိုင်ရာ ကဏ္ဍအလိုက်ကျွမ်းကျင်ပိုင်နိုင်နေပါလျှင် နိုင်ငံတစ်နိုင်ငံလုံးအနေဖြင့်ပါ ဟန်ချက်ညီညီ ဖွံ့ဖြိုးတိုးတက် ၊ပါလိမ့်မည်။ လူတိုင်းအတွက် နေ့စဉနှင့်အမျှ တွေ့ကြုံနေကြရသော အသေးအဖွဲ့ ကိစ္စရပ်များမှသည် ဘဝနှင့်ဆိုင်သော ကိစ္စရပ်များအထိ ကအရပ်ရပ်တွင် လူငယ်တိုင်း လိုအပ်ချက် (Need)နှင့် လိုချင်မှု (Want)၊အဓိကနှင့် သာမညကို ကွဲကွဲပြားပြား သတ်မှတ်ကာ မိမိသက်ဆိုင်ရာလုပ်ငန်းခွင်တွင် တစ်ဖက်ကမ်းခပ် တတ်ကျွမ်းပိုင်နိုင်အောင် လုပ်အပ်ချက်များကို ဖြည့်ဆည်းကာ အောင်မြင်နိုင်ကြပါစကြောင်း ရည်ရွယ်ကာ ရေးသားမျှဝေလိုက်ပါသည်။ ",
+        description: `ဂျပန်လူမျိုးတွေရဲ့ KAKEIBO ငွေစုနည်း
+
+        ဒီနည်းဟာ
+        ဂျပန်ပြည်မှာ အရမ်းခေတ်စားပြီး
+        အသုံးတည့် အလုပ်ဖြစ်တဲ့
+        ဂျပန်ငွေစုနည်း ဖြစ်ပါတယ်
+        သင့်ဝင်ငွေရဲ့ ၄၀% ထိ ပိုစုနိုင်ပါလိမ့်မယ်
+        
+        ဒီငွေစုနည်းအတွက်
+        ဗလာစာအုပ် အကြီးရယ် 📓 📒
+        အသေးရယ် ၂ အုပ်ပဲ လိုပါ့မယ်
+        
+        📓 ပထမအကြီးစာအုပ်မှာ
+        ကိုယ့်ကိုကိုယ် ဒါတွေ မေးပါ
+        ပြီးတော့ ရေးပါ
+        
+        ၁) သင့်မှာ ငွေဘယ်လောက် ရှိပါသလဲ ⁉️
+        ၂) ငွေဘယ်လောက် စုချင်ပါသလဲ❓
+        ၃) ပမာဏ ဘယ်လောက်ကို သုံးချင်တာပါလဲ❓
+        ၄) ဘယ်လို အရာတွေကို
+        ပိုကောင်းအောင် လုပ်နိုင်မလဲ ‼️
+        
+        အာ့ စာအုပ်အကြီးထဲမှာ
+        ကိုယ့်ရဲ့ဝင်ငွေ ကို ချ ရေးရပါ့မယ်
+        ပြီးတော့အာ့စာအုပ်ထဲမှာပဲ
+        စုငွေ နဲ့သုံးငွေ ကို ချ ရေးရပါ့မယ်
+        
+        ဟုတ်ပြီ 📒
+        စာအုပ်အသေးကကော⚠️
+        အာ့စာအုပ်အသေးလေးကို
+        ဘယ်သွားသွား ယူသွားပေးပါ
+        
+        ကိုယ်သုံးလိုက်တဲ့ ငွေပမာဏ
+        သေသေးလေးတွေကအစ
+        အချိန်နဲ့ တပြေးညီ မှတ်သားထားပါ
+        (သုံးပြီးသားငွေ တွေကို မှတ်လိုက်လို့ပြန် မရပါဖူး ဒါပေမဲ့အနည်းဆုံး ခနခန ရေးနေရင်ငါ အများကြီး သုံးမိနေပါလားလို့ကိုယ့်ကိုကိုယ် သတိချပ်စေမိမှာပါ )
+        
+        စာအုပ်အကြီးထဲမှာ
+        ✅ကိုယ့်ရဲ့ လစာ
+        ✅မထင်မှတ်ပဲရတဲ့ မုန့်ဘိုး
+        ✅ ပြန်ရတဲ့ အကြွေး..... ဒါတွေကို မှတ်ပါ
+        
+        ပြီးတော့
+        ကိုယ်စုလိုတဲ့ပမာဏ ကို ချ ရေးရပါ့မယ်
+        
+        ဝင်ငွေ ရလာပြီ ဆိုတာနဲ့
+        သုံးဖို့အတွက် ဆိုင်ကို မသွားသေးပဲနဲ့
+        ကိုယ့်ရဲ့စုဗူးထဲဖြစ်ဖြစ်
+        ဘဏ်အကောင့်ထဲဖြစ်ဖြစ်
+        ငွေ အရင်စုပါ
+        (မဖြစ်မနေလုပ်ပါ)
+        
+        သုံးငွေစာအုပ်အသေး ယူသွားတော့မယ်ဆိုတာနဲ့
+        ဘာဝယ်မလဲ ဆိုတာ တိတိကျကျ
+        စာရင်းလုပ်ပါ
+        ဘာဝယ်ရမှန်းမသိပဲ
+        Shopping ထွက်မိတဲ့အခါ
+        ပိုက်ဆံ ထင်ထားတာထက်
+        ပိုကုန်မိပါတယ်
+        ( သင်လိုအပ်နေတာနဲ့
+        သင်လိုချင်နေတာနဲ့ အတိအကျ သိအောင်လုပ်ပြီးမှ
+        စာအုပ် အသေးကို အသုံးပြုပါ )
+        
+        တကယ်တော့လူတော်တော်များများဟာ
+        သူတို့အင်္ကျီရဲ့ ၃၀%ကိုပဲတကယ်ဝတ်လေ့ရှိပြီး
+        ကျန် ၇၀%ကို မဝတ်ကြပါဖူး
+        
+        ခါခဲဘိုနည်းဟာ ဘာမှ မဟုတ်ဖူးထင်ရပေမယ့်
+        ဒီလိုလုပ်သွားခြင်းအားဖြင့်
+        လကုန်တိုင်း လကုန်တိုင်း
+        ကိုယ်ဘလောက် အသားတင် ဝင်ငွေရှိတယ်
+        ဘယ်လောက် စုဖြစ်တယ်ဆိုတာ
+        အကျဉ်းဖျဉ်း သတိထားမိပြီး
+        ဝင်ငွေရဲ့ ၄၅% ထိ စုဖြစ်ပါလိမ့်မယ်လို့
+        KAEIBO နည်းက ပြောထားပါတယ်
+        
+        အားလုံးပဲချွေတာခြင်းဖြင့်တိုးတက်နိုင်ကြပါစေ`,
         favouriate: false
     },
     {
@@ -28,7 +109,7 @@ export let Popular = [
     },
     {
         id: 4,
-        title: "&lth1&gtHello&lt/h1&gt",
+        title: "Random",
         author: "Aldi paratama",
         thumbnail:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
@@ -37,52 +118,6 @@ export let Popular = [
     },
     {
         id: 5,
-        title: "The Highlights of Paris, France",
-        author: "Aldi paratama",
-        thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
-        favouriate: false
-    },
-    {
-        id: 6,
-        title: "The Highlights of Paris, France",
-        author: "Aldi paratama",
-        thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
-        favouriate: false
-
-    },
-    {
-        id: 7,
-        title: "The Highlights of Paris, France",
-        author: "Aldi paratama",
-        thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
-        favouriate: false
-    },
-    {
-        id: 8,
-        title: "The Highlights of Paris, France",
-        author: "Aldi paratama",
-        thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
-        favouriate: false
-    },
-    {
-        id: 9,
-        title: "The Highlights of Paris, France",
-        author: "Aldi paratama",
-        thumbnail:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTez1P2N8HY2QpZ1BuU1qnziFpkQYbF6v9qJEhuwIOqvr7jAtz6",
-        description: "The late sun spilled light through the trees and onto the footpath, and every so often a grey squirrel would scurry across my path and ascend the nearest tree until out of sight. Whenever you walk into the woods it feels as if you have entered a sanctuary — everything you think matters does not seem to matter all that much under the shelter of the trees. Trees are mysterious to me, like gods or mystics, infinitely wiser than humans, all-knowing, all-seeing, and we can only admire them from below.I could have walked anywhere: along the roads, over the green fields, across the towns and cities — but I always choose the woodlands. In the woods, I walk amongst my ancestors, and I am home. Even in childhood, the woods were where I felt closest to nature’s awe-inspiring workings.I most enjoy woodlands which are unkempt, with fallen trees and branches on the ground, brushes and brambles in sprawl, and no clear footpath. You have to find your own way through a deadly labyrinth of nettles, thorns, spines, and prickles. These wild woodlands are a fascinating reminder of what nature was like before humanity: a tangled, prickly, and venomous darkness, often hostile and sinister, but at the same time mysteriously beautiful. The wildest things are the most alive, and finding yourself amid the wilderness in an age when man has subdued every other part of life is refreshing.",
-        favouriate: false
-    },
-    {
-        id: 10,
         title: "The Highlights of Paris, France",
         author: "Aldi paratama",
         thumbnail:
