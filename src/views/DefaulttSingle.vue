@@ -1,18 +1,28 @@
 <template>
-  <div class="container">
-  <a-skeleton :loading="loading" :paragraph="{rows: 20}">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
-        <img :src="singleViewDefault.thumbnail" class="single-image mb-3" /> 
-        <a-icon type="heart" :style="{ fontSize: '30px', float: 'right' }" @click="addToFav"  :class="[this.singleViewDefault.favouriate?'icon heart':'icon']"/>
-      </div>
-      <div class="col-sm-12 col-md-6 col-lg-6" id="blog">
-        <h4 class="single-title">{{singleViewDefault.title}}</h4>
-        <p class="single-description">{{singleViewDefault.description}}</p>
-      </div>
-    </div>
-  </a-skeleton>
+  <div class="container" id="container">
+    <a-skeleton :loading="loading" :paragraph="{rows: 20}">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+          <img :src="singleViewDefault.thumbnail" class="single-image mb-3" />
+          <a-icon
+            type="heart"
+            :style="{ fontSize: '30px', float: 'right' }"
+            @click="addToFav"
+            :class="[this.singleViewDefault.favouriate?'icon heart':'icon']"
+          />
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6" id="blog">
+          <h4 class="single-title">{{singleViewDefault.title}}</h4>
+          <p class="single-description">{{singleViewDefault.description}}</p>
 
+
+        </div>
+      </div>
+    </a-skeleton>
+
+    <a-back-top>
+      <div class="ant-back-top-inner">UP</div>
+    </a-back-top>  
     <social-sharing
       :url="'https://jointfy.netlify.com/#/viewBlogDefaultt/'+singleViewDefault.id"
       :title="singleViewDefault.title"
@@ -24,72 +34,93 @@
       <div>
         <network network="facebook">
           <a-icon type="facebook" :style="{ fontSize: '25px', color: '#08c' , float: 'right' }" />
-          <h5 style="float:right">Share article on </h5>
-
+          <h5 style="float:right">Share article on</h5>
         </network>
       </div>
     </social-sharing>
+  <More/>
+
   </div>
 </template>
 
 <script>
 /* eslint-disable no-console */
 import { Defaultt } from "../content/defaultt";
+import More from '../components/More';
 
 export default {
+  components : {
+    More
+  },
   props: ["id"],
   data() {
     return {
       defaultts: Defaultt,
       singleViewDefault: [],
-      localId : [],
-      prasedID : '',
-      description : '',
-      itemsArray: localStorage.getItem('defaultt') ? JSON.parse(localStorage.getItem('defaultt')) : [],
-      loading : true
+      localId: [],
+      prasedID: "",
+      description: "",
+      itemsArray: localStorage.getItem("defaultt")
+        ? JSON.parse(localStorage.getItem("defaultt"))
+        : [],
+      loading: true
     };
   },
-  methods : {
+  methods: {
     addToFav() {
-      if(!this.singleViewDefault.favouriate){
+      if (!this.singleViewDefault.favouriate) {
         this.singleViewDefault.favouriate = !this.singleViewDefault.favouriate;
-        this.itemsArray.push(this.singleViewDefault);    
-        localStorage.setItem("defaultt",JSON.stringify(this.itemsArray));
-
+        this.itemsArray.push(this.singleViewDefault);
+        localStorage.setItem("defaultt", JSON.stringify(this.itemsArray));
       }
+    },
+    reloadPage(){
+      window.location.reload();
+    
     }
   },
   mounted() {
-  
     this.singleViewDefault = this.defaultts[this.$props.id - 1];
 
-        this.localId = localStorage.getItem('defaultt');
-        if(this.localId){
-        this.prasedID = JSON.parse(this.localId);
-      
-        this.prasedID.forEach(singleID => {
+    this.localId = localStorage.getItem("defaultt");
+    if (this.localId) {
+      this.prasedID = JSON.parse(this.localId);
 
-         
-          if(singleID.id == this.singleViewDefault.id){
-            this.singleViewDefault.favouriate = true;
-          }    
-        });
-
-          }
-      setTimeout(()=>{
-        this.loading = false
-      },2000);
-
+      this.prasedID.forEach(singleID => {
+        if (singleID.id == this.singleViewDefault.id) {
+          this.singleViewDefault.favouriate = true;
+        }
+      });
+    }
+    setTimeout(() => {
+      this.loading = false;
+    }, 2000);
+    
+  },
+  watch : {
+    '$route' : 'reloadPage'
   }
 };
 
 /* eslint-enable no-console */
 </script>
 
-<style>
+<style scoped>
 
-.icon.heart{
-    color: red;
+.icon.heart {
+  color: red;
 }
-  
+ .ant-back-top {
+    bottom: 100px;
+  }
+.ant-back-top-inner {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #1088e9;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
 </style>
