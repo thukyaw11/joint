@@ -12,6 +12,7 @@
         <p class="single-description">{{singleViewPopular.description}}</p>
       </div>
     </div>
+      </a-skeleton>
 
     <social-sharing
       :url="'https://jointfy.netlify.com/#/viewBlogPopular/'+singleViewPopular.id"
@@ -29,7 +30,6 @@
         </network>
       </div>
     </social-sharing>
-      </a-skeleton>
 
   </div>
 

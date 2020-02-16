@@ -11,6 +11,7 @@
         <p class="single-description">{{singleViewDefault.description}}</p>
       </div>
     </div>
+  </a-skeleton>
 
     <social-sharing
       :url="'https://jointfy.netlify.com/#/viewBlogDefaultt/'+singleViewDefault.id"
@@ -28,7 +29,6 @@
         </network>
       </div>
     </social-sharing>
-  </a-skeleton>
   </div>
 </template>
 
