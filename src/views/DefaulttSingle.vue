@@ -13,16 +13,17 @@
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6" id="blog">
           <h4 class="single-title">{{singleViewDefault.title}}</h4>
-          <p class="single-description">{{singleViewDefault.description}}</p>
-
-
+          <p class="single-description">
+            <vue-markdown html emoji="true"
+            >{{singleViewDefault.description}}</vue-markdown>
+          </p>
         </div>
       </div>
     </a-skeleton>
 
     <a-back-top>
       <div class="ant-back-top-inner">UP</div>
-    </a-back-top>  
+    </a-back-top>
     <social-sharing
       :url="'https://jointfy.netlify.com/#/viewBlogDefaultt/'+singleViewDefault.id"
       :title="singleViewDefault.title"
@@ -38,19 +39,17 @@
         </network>
       </div>
     </social-sharing>
-  <More/>
-
   </div>
 </template>
 
 <script>
 /* eslint-disable no-console */
 import { Defaultt } from "../content/defaultt";
-import More from '../components/More';
-
+// import More from '../components/More';
+import VueMarkdown from 'vue-markdown';
 export default {
-  components : {
-    More
+  components:{
+    VueMarkdown
   },
   props: ["id"],
   data() {
@@ -73,10 +72,6 @@ export default {
         this.itemsArray.push(this.singleViewDefault);
         localStorage.setItem("defaultt", JSON.stringify(this.itemsArray));
       }
-    },
-    reloadPage(){
-      window.location.reload();
-    
     }
   },
   mounted() {
@@ -94,11 +89,7 @@ export default {
     }
     setTimeout(() => {
       this.loading = false;
-    }, 2000);
-    
-  },
-  watch : {
-    '$route' : 'reloadPage'
+    }, 1000);
   }
 };
 
@@ -106,21 +97,20 @@ export default {
 </script>
 
 <style scoped>
-
 .icon.heart {
   color: red;
 }
- .ant-back-top {
-    bottom: 100px;
-  }
+.ant-back-top {
+  bottom: 100px;
+}
 .ant-back-top-inner {
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    border-radius: 4px;
-    background-color: #1088e9;
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
-  }
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  background-color: #1088e9;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
 </style>

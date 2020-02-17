@@ -3,23 +3,16 @@
   <div class="container">
     <!-- <a-input-search placeholder="input search text" style="width: 100%" v-model="search" class="mb-3"/> -->
     <Defaultt />
-    <Popular />
-    <Recommend />
-    <Newest />
+
   </div>
 </template>
 
 <script>
-import Popular from "../components/Popular";
-import Recommend from '../components/Recommend';
-import Newest from '../components/Newest';
+
 import Defaultt from '../components/Defaultt'
 export default {
   components: {
-    Defaultt,
-    Popular,
-    Recommend,
-    Newest
+    Defaultt
   },
   data () {
     return {
@@ -37,9 +30,8 @@ export default {
     font-weight: bold;
 }
 .single-description{
-    text-align: justify;
-    font-size: 20px;
-    padding: 2px;
+  
+    font-size: 23px;
 }
 #blog{
     overflow: hidden;

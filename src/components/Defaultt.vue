@@ -9,23 +9,30 @@
       <router-link :to="`/viewBlogDefaultt/${defaultt.id}`">
         <img :src="defaultt.thumbnail" class="image-default mb-1" />
       </router-link>
-      <h4 class="book_title_default">{{defaultt.title}}</h4>
-      <h6 class="book_author_default mb-3">{{defaultt.author}}</h6>
-      <hr>
+      <h4>
+        <vue-markdown class="book_title_default" html emoji="true">{{defaultt.title}}</vue-markdown>
+      </h4>
+      <h6>
+        <vue-markdown class="book_author_default mb-3" html emoji="true">{{defaultt.author}}</vue-markdown>
+      </h6>
+      
+      <hr />
     </div>
-
   </div>
 </template>
 <script>
 /* eslint-disable no-console */
 import { Defaultt } from "../content/defaultt";
+import VueMarkdown from 'vue-markdown';
 export default {
+  components:{
+    VueMarkdown
+  },
   data() {
     return {
-      defaultts : Defaultt
+      defaultts: Defaultt
     };
   }
-
 };
 
 /* eslint-enable no-console */
@@ -37,8 +44,8 @@ export default {
   height: 200px;
   border-radius: 10px;
 }
-.book_title_default{
-    font-weight: bold;
-    line-height: 40px;
+.book_title_default {
+  font-weight: bold;
+  line-height: 40px;
 }
 </style>

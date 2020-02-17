@@ -13,6 +13,7 @@ import NProgress from "vue-nprogress"
 import VueRouter from "vue-router";
 import Skeleton from "ant-design-vue/lib/skeleton";
 import BackTop from "ant-design-vue/lib/back-top";
+import VueMarkDown from "vue-markdown";
 Vue.config.productionTip = false;
 Vue.use(Icon);
 Vue.use(Card);
@@ -24,6 +25,7 @@ Vue.use(VueRouter);
 Vue.use(SocialSharing);
 Vue.use(Skeleton);
 Vue.use(BackTop);
+Vue.use(VueMarkDown);
 new Vue({
   router,
   render: h => h(App)
