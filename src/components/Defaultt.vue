@@ -10,10 +10,10 @@
         <img :src="defaultt.thumbnail" class="image-default mb-1" />
       </router-link>
       <h4>
-        <vue-markdown class="book_title_default" html emoji="true">{{defaultt.title}}</vue-markdown>
+        <vue-markdown class="book_title_default" html>{{defaultt.title}}</vue-markdown>
       </h4>
       <h6>
-        <vue-markdown class="book_author_default mb-3" html emoji="true">{{defaultt.author}}</vue-markdown>
+        <vue-markdown class="book_author_default mb-3" html>{{defaultt.author}}</vue-markdown>
       </h6>
       
       <hr />

@@ -14,7 +14,7 @@
         <div class="col-sm-12 col-md-6 col-lg-6" id="blog">
           <h4 class="single-title">{{singleViewDefault.title}}</h4>
           <p class="single-description">
-            <vue-markdown html emoji="true"
+            <vue-markdown html
             >{{singleViewDefault.description}}</vue-markdown>
           </p>
         </div>
@@ -75,6 +75,7 @@ export default {
     }
   },
   mounted() {
+
     this.singleViewDefault = this.defaultts[this.$props.id - 1];
 
     this.localId = localStorage.getItem("defaultt");

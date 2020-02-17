@@ -137,6 +137,16 @@ export let Defaultt= [
 </div>
 <div class='the-post-foot cf'>&nbsp;</div>`,
         favouriate: false
+    },
+    {
+        id: 8,
+        title: "Java or JavaScript",
+        author: "Meenal Deshpande",
+        thumbnail:
+            "https://gbksoft.com/blog/wp-content/uploads/2018/04/6-1-984x555.jpg",
+        description: `JavaScript is easier to learn, but I would say harder to master. Sure, anyone can wire up jQuery animations and event handlers and say they are competent with JavaScript. How many JavaScript developers can explain to you how the prototype system works; how the this mechanism works; how to handle asynchronous flow; how the latest features such as Promises, Async functions, Generators, Data types, and more all work; and how to implement design patterns such as functional programming, behavior delegation, closures, modules (UMD, CommonJS, ES6), and others? How many of those who know these things can apply it all too real life situations with so many libraries, frameworks, and tools that they are supposed to know? No, JavaScript isn’t really easier to learn, at least learn well. When it comes to the tricky parts in JS, many developers fall back to their safety net of traditional approaches: callbacks and promises are too hard, I want threads; functional programming and behavior delegation is confusing, why can’t I just have super complex hierarchical patterns with classes; no static types?!?, my programs will be full of bugs… blah, blah, blah. The list goes on and on, and on and on, and on and on.
+        Java is more traditional. It uses classes, static typing, etc. You shouldn’t be surprised by a lot of behavior in Java once you learn it. JavaScript is different, as there are quirky things that take time to master. That doesn’t mean you shouldn’t learn the language.`,
+        favouriate: false
     }
    
 ];

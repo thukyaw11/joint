@@ -26,6 +26,8 @@ Vue.use(SocialSharing);
 Vue.use(Skeleton);
 Vue.use(BackTop);
 Vue.use(VueMarkDown);
+
+
 new Vue({
   router,
   render: h => h(App)
