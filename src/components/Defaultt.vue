@@ -1,5 +1,5 @@
 <template>
-  <div class="row mt-3">
+  <div class="row mt-5">
     <div
       v-for="defaultt in defaultts"
       v-bind:key="defaultt.id"
@@ -9,15 +9,20 @@
       <router-link :to="`/viewBlogDefaultt/${defaultt.id}`">
         <img :src="defaultt.thumbnail" class="image-default mb-1" />
       </router-link>
+            <span class="badge badge-primary" >{{defaultt.tag}} </span>
       <h4>
         <vue-markdown class="book_title_default" html>{{defaultt.title}}</vue-markdown>
       </h4>
-      <h6>
-        <vue-markdown class="book_author_default mb-3" html>{{defaultt.author}}</vue-markdown>
+
+      <h6 class="author_minRead">
+        <vue-markdown class="book_author_default mb-3" html>{{defaultt.author}}  </vue-markdown>{{defaultt.minRead}} min read
       </h6>
-      
+
       <hr />
+
+
     </div>
+
   </div>
 </template>
 <script>
@@ -30,8 +35,21 @@ export default {
   },
   data() {
     return {
-      defaultts: Defaultt
+      defaultts: Defaultt,
+      tags : {}
     };
+  },
+  mounted() {
+    this.defaultts.forEach(element => {
+      const wordsPerMinute = 600;
+      let textLength = element.description.length;
+      element.minRead = Math.ceil(textLength/wordsPerMinute);
+      
+
+    });
+
+    
+
   }
 };
 
@@ -47,5 +65,12 @@ export default {
 .book_title_default {
   font-weight: bold;
   line-height: 40px;
+}
+.author_minRead{
+  display: flex;
+  justify-content: space-between;
+}
+.badge.badge-primary{
+  margin: 2px;
 }
 </style>

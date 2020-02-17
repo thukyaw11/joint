@@ -6,12 +6,14 @@
         v-bind:key="favouriate.id"
         id="defalut_container"
         class="col-12 col-sm-4"
-      >
+      >           
         <router-link :to="`/viewBlogDefaultt/${favouriate.id}`">
-        <img :src="favouriate.thumbnail" class="image-default mb-1" />
+          <img :src="favouriate.thumbnail" class="image-default mb-1" />
         </router-link>
+        <span class="badge badge-primary">{{favouriate.tag}}</span>
         <h4 class="book_title_default">{{favouriate.title}}</h4>
-        <h6 class="book_author_default mb-3">{{favouriate.author}}</h6>
+        <h6 class="book_author_default mb-3">{{favouriate.author}}  <span> {{favouriate.minRead}} min read</span> </h6>
+        
        
       </div>
     </div>
@@ -30,7 +32,9 @@ export default {
   },
   mounted() {
     this.favouriate = JSON.parse(localStorage.getItem("defaultt")); 
+  
   }
+  
 };
 
 /* eslint-enable no-console */
@@ -38,5 +42,9 @@ export default {
 <style>
   .book_title_default{
     line-height: 40px;
+  }
+  .book_author_default.mb-3{
+    display: flex;
+    justify-content: space-between;
   }
 </style>

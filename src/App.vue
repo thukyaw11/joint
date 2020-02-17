@@ -49,7 +49,6 @@
 <style>
 /* @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"; */
 
-
 #menuDrawer{
   font-size: 30px;
   padding: 20px;

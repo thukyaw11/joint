@@ -1,9 +1,10 @@
 <template>
   <div class="container" id="container">
-    <a-skeleton :loading="loading" :paragraph="{rows: 20}">
+    <a-skeleton :loading="loading" :paragraph="{rows: 15}">
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
           <img :src="singleViewDefault.thumbnail" class="single-image mb-3" />
+          <span class="badge badge-primary" >{{singleViewDefault.tag}} </span>
           <a-icon
             type="heart"
             :style="{ fontSize: '30px', float: 'right' }"
@@ -22,7 +23,7 @@
     </a-skeleton>
 
     <a-back-top>
-      <div class="ant-back-top-inner">UP</div>
+      <div class="ant-back-top-inner"><a-icon type="caret-up" :style="{fontSize: '20px'}" /></div>
     </a-back-top>
     <social-sharing
       :url="'https://jointfy.netlify.com/#/viewBlogDefaultt/'+singleViewDefault.id"
@@ -107,8 +108,8 @@ export default {
 .ant-back-top-inner {
   height: 40px;
   width: 40px;
-  line-height: 40px;
-  border-radius: 4px;
+  line-height: 25px;
+  border-radius: 50%;
   background-color: #1088e9;
   color: #fff;
   text-align: center;

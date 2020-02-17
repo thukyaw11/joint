@@ -14,6 +14,7 @@ import VueRouter from "vue-router";
 import Skeleton from "ant-design-vue/lib/skeleton";
 import BackTop from "ant-design-vue/lib/back-top";
 import VueMarkDown from "vue-markdown";
+import Tag from "ant-design-vue/lib/tag";
 Vue.config.productionTip = false;
 Vue.use(Icon);
 Vue.use(Card);
@@ -26,6 +27,7 @@ Vue.use(SocialSharing);
 Vue.use(Skeleton);
 Vue.use(BackTop);
 Vue.use(VueMarkDown);
+Vue.use(Tag);
 
 
 new Vue({

@@ -3,7 +3,9 @@
   <div class="container">
     <!-- <a-input-search placeholder="input search text" style="width: 100%" v-model="search" class="mb-3"/> -->
     <Defaultt />
-
+    <a-back-top>
+      <div class="ant-back-top-inner"><a-icon type="caret-up" :style="{fontSize: '20px'}" /></div>
+    </a-back-top>
   </div>
 </template>
 
@@ -22,6 +24,19 @@ export default {
 };
 </script>
 <style>
+.ant-back-top {
+  bottom: 100px;
+}
+.ant-back-top-inner {
+  height: 40px;
+  width: 40px;
+  line-height: 25px;
+  border-radius: 50%;
+  background-color: #1088e9;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
 .single-image {
   width: 100%;
   border-radius: 9px;
