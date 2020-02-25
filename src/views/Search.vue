@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <a-input-search placeholder="input search text" size="large" v-model="search" id="searchBox" />
+    <a-input-search placeholder="Search Joint" size="large" v-model="search" id="searchBox" />
     <br />
     <p>Search keyword :</p>
     <a-tag @click="clickSearch('programming')">programming</a-tag>

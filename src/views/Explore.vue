@@ -3,6 +3,7 @@
   <div class="container">
     <!-- <a-input-search placeholder="input search text" style="width: 100%" v-model="search" class="mb-3"/> -->
     <Defaultt />
+    
     <a-back-top>
       <div class="ant-back-top-inner"><a-icon type="caret-up" :style="{fontSize: '20px'}" /></div>
     </a-back-top>

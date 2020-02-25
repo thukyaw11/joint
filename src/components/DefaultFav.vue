@@ -9,10 +9,11 @@
       >           
         <router-link :to="`/viewBlogDefaultt/${favouriate.id}`">
           <img :src="favouriate.thumbnail" class="image-default mb-1" />
-        </router-link>
-        <span class="badge badge-primary">{{favouriate.tag}}</span>
+          <span class="badge badge-primary">{{favouriate.tag}}</span>
         <h4 class="book_title_default">{{favouriate.title}}</h4>
         <h6 class="book_author_default mb-3">{{favouriate.author}}  <span> {{favouriate.minRead}} min read</span> </h6>
+        </router-link>
+ 
         
        
       </div>
@@ -31,7 +32,8 @@ export default {
     };
   },
   mounted() {
-    this.favouriate = JSON.parse(localStorage.getItem("defaultt")); 
+    this.favouriate = JSON.parse(localStorage.getItem("defaultt"));
+    console.log(this.favouriates);
   
   }
   

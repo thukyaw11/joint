@@ -1,10 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Explore from "../views/Explore.vue";
-import PopularSingle from "../views/PopularSingle.vue";
-import NewestSingle from "../views/NewestSingle.vue";
+import AddNew from "../views/AddNew.vue";
 import DefaulttSingle from "../views/DefaulttSingle.vue";
-import RecommendSingle from "../views/RecommendSingle.vue";
+
 import Search from "../views/Search.vue";
 Vue.use(VueRouter); 
 
@@ -34,24 +33,6 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/Favoriate.vue")
   },
   {
-    path: "/viewBlogPopular/:id",
-    name : "viewBlogPopular",
-    props: true,
-    component: PopularSingle
-  },
-  {
-    path: "/viewBlogNewest/:id",
-    name : "viewBlogNewest",
-    props: true,
-    component: NewestSingle
-  },
-  {
-    path: "/viewBlogRecommend/:id",
-    name : "viewBlogRecommend",
-    props : true,
-    component : RecommendSingle
-  },
-  {
     path: "/viewBlogDefaultt/:id",
     name : "viewBlogDefaultt",
     props : true,
@@ -61,6 +42,11 @@ const routes = [
     path: "/search",
     name : "search",
     component : Search
+  },
+  {
+    path: "/addNew",
+    name: "addNew",
+    component : AddNew
   }
 
 ];

@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
           <img :src="singleViewDefault.thumbnail" class="single-image mb-3" />
-          <span class="badge badge-primary" >{{singleViewDefault.tag}} </span>
+          <span class="badge badge-primary">{{singleViewDefault.tag}}</span>
           <a-icon
             type="heart"
             :style="{ fontSize: '30px', float: 'right' }"
@@ -15,15 +15,16 @@
         <div class="col-sm-12 col-md-6 col-lg-6" id="blog">
           <h4 class="single-title">{{singleViewDefault.title}}</h4>
           <p class="single-description">
-            <vue-markdown html
-            >{{singleViewDefault.description}}</vue-markdown>
+            <vue-markdown html>{{singleViewDefault.description}}</vue-markdown>
           </p>
         </div>
       </div>
     </a-skeleton>
 
     <a-back-top>
-      <div class="ant-back-top-inner"><a-icon type="caret-up" :style="{fontSize: '20px'}" /></div>
+      <div class="ant-back-top-inner">
+        <a-icon type="caret-up" :style="{fontSize: '20px'}" />
+      </div>
     </a-back-top>
     <social-sharing
       :url="'https://jointfy.netlify.com/#/viewBlogDefaultt/'+singleViewDefault.id"
@@ -45,17 +46,17 @@
 
 <script>
 /* eslint-disable no-console */
-import { Defaultt } from "../content/defaultt";
+import axios from "axios";
 // import More from '../components/More';
-import VueMarkdown from 'vue-markdown';
+import VueMarkdown from "vue-markdown";
 export default {
-  components:{
+  components: {
     VueMarkdown
   },
   props: ["id"],
   data() {
     return {
-      defaultts: Defaultt,
+      defaultts: null,
       singleViewDefault: [],
       localId: [],
       prasedID: "",
@@ -73,22 +74,37 @@ export default {
         this.itemsArray.push(this.singleViewDefault);
         localStorage.setItem("defaultt", JSON.stringify(this.itemsArray));
       }
+    },
+    setData(data) {
+      this.defaultts = data;
+    },
+    checkFav(data) {
+      this.singleViewDefault = data[this.$props.id - 1];
+
+      this.localId = localStorage.getItem("defaultt");
+      if (this.localId) {
+        this.prasedID = JSON.parse(this.localId);
+
+        this.prasedID.forEach(singleID => {
+          if (singleID.id == this.singleViewDefault.id) {
+            this.singleViewDefault.favouriate = true;
+          }
+        });
+      }
     }
   },
   mounted() {
-
-    this.singleViewDefault = this.defaultts[this.$props.id - 1];
-
-    this.localId = localStorage.getItem("defaultt");
-    if (this.localId) {
-      this.prasedID = JSON.parse(this.localId);
-
-      this.prasedID.forEach(singleID => {
-        if (singleID.id == this.singleViewDefault.id) {
-          this.singleViewDefault.favouriate = true;
-        }
+    axios
+      .get("https://jointapi.now.sh/api/read")
+      .then(res => {
+        const slicedData = res.data.slice().reverse();
+        this.setData(slicedData);
+        this.checkFav(res.data);
+      })
+      .catch(error => {
+        console.log(error);
       });
-    }
+
     setTimeout(() => {
       this.loading = false;
     }, 1000);

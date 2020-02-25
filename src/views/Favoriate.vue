@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h4 class="mb-5"> Your Collection ...</h4>
+    <h4 class="mb-5"> Reading List</h4>
     <DefaultFav />
         <a-button type="danger" id="reset-button" @click="removeFav">Reset All</a-button>
 
