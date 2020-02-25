@@ -27,14 +27,15 @@
 </template>
 
 <script>
-import { Defaultt } from "../content/defaultt";
+// import { Defaultt } from "../content/defaultt";
 
 /* eslint-disable no-console */
+import axios from 'axios';
 
 export default {
   data() {
     return {
-      defaults: Defaultt,
+      defaults: "",
       search: "",
       query: ""
     };
@@ -68,10 +69,23 @@ export default {
   methods: {
     clickSearch(query) {
       this.search = query;
+    },
+    setData(data){
+      this.defaults = data;
     }
   },
-  mounted(){
-    document.getElementById('searchBox').focus();
+  mounted() {
+    document.getElementById("searchBox").focus();
+
+    axios
+      .get("https://jointapi.now.sh/api/read")
+      .then(res => {
+        const slicedData = res.data.slice().reverse();
+        this.setData(slicedData);
+      })
+      .catch(error => {
+        console.log(error);
+      });
   }
 };
 

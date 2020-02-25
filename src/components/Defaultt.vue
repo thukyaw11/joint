@@ -57,13 +57,7 @@ export default {
   methods: {
     displayData(data) {
       this.defaultts = data;
-    },
-    countMinute(data) {
-      data.forEach(element => {
-        const wordsPerMinute = 600;
-        let textLength = element.description.length;
-        element.minRead = Math.ceil(textLength / wordsPerMinute);
-      });
+      console.log(this.defaultts);
     }
   }
 };
