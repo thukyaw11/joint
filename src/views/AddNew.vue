@@ -27,6 +27,8 @@
 </template>
 
 <script>
+/* eslint-disable no-console */
+
 import { VueEditor } from "vue2-editor";
 import axios from "axios";
 export default {
@@ -90,4 +92,7 @@ export default {
       });
   }
 };
+
+/* eslint-enable no-console */
+
 </script>
