@@ -56,17 +56,6 @@ export default {
   components: {
     VueMarkdown
   },
-    metaInfo() {
-      return {
-        meta: [
-          {
-            property : 'og:title',
-            content : 'testing 1 2 3'
-          }
-
-        ]
-      }
-    },
   props: ["id"],
   data() {
     return {

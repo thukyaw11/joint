@@ -36,7 +36,20 @@ const routes = [
     path: "/viewBlogDefaultt/:id",
     name : "viewBlogDefaultt",
     props : true,
-    component : DefaulttSingle
+    component : DefaulttSingle,
+    meta: {
+      title: 'Home Page - Example App',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'The home page of our example app.'
+        },
+        {
+          property: 'og:description',
+          content: 'The home page of our example app.'
+        }
+      ]
+    }
   },
   {
     path: "/search",
