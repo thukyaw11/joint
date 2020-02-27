@@ -73,6 +73,7 @@ export default {
         console.log(api_url);
         this.postApi(api_url);
         this.route = "/";
+        window.location.reload();
       } else {
         alert("Incomplete form submition");
         this.route = "/addNew";

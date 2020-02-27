@@ -18,7 +18,12 @@ import VueMarkDown from "vue-markdown";
 import Tag from "ant-design-vue/lib/tag";
 import axios from "axios";
 import VueCoreImageUpload from "vue-core-image-upload";
+import VueMeta from "vue-meta";
 Vue.config.productionTip = false;
+Vue.use(VueMeta, {
+  // optional pluginOptions
+  refreshOnceOnNavigation: true
+})
 Vue.use(VueCoreImageUpload);
 Vue.use(axios);
 Vue.use(Icon);

@@ -46,7 +46,6 @@ export default {
       .then(res => {
        const slicedData = res.data.slice().reverse();
         this.displayData(slicedData);
-        this.countMinute(res.data);
       })
       .catch(error => {
         console.log(error);

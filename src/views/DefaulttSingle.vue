@@ -13,7 +13,7 @@
           />
         </div>
         <div class="col-sm-12 col-md-6 col-lg-6" id="blog">
-          <h4 class="single-title">{{singleViewDefault.title}}</h4>
+          <h4 class="single-title mt-3">{{singleViewDefault.title}}</h4>
           <p class="single-description">
             <vue-markdown html>{{singleViewDefault.description}}</vue-markdown>
           </p>
@@ -28,16 +28,18 @@
     </a-back-top>
     <social-sharing
       :url="'https://jointfy.netlify.com/#/viewBlogDefaultt/'+singleViewDefault.id"
-      :title="singleViewDefault.title"
-      :description="singleViewDefault.description"
-      hashtags="jointify,vuejs"
+      title="The Progressive JavaScript Framework"
+      description="Intuitive, Fast and Composable MVVM for building interactive interfaces."
+      :quote="singleViewDefault.title"
+      hashtags="vuejs,javascript,framework"
       twitter-user="vuejs"
       inline-template
-    >
+    > 
+      
       <div>
         <network network="facebook">
           <a-icon type="facebook" :style="{ fontSize: '25px', color: '#08c' , float: 'right' }" />
-          <h5 style="float:right">Share article on</h5>
+          <h5 style="float:right" class="mr-2">Share article on</h5>
         </network>
       </div>
     </social-sharing>
@@ -49,6 +51,7 @@
 import axios from "axios";
 // import More from '../components/More';
 import VueMarkdown from "vue-markdown";
+
 export default {
   components: {
     VueMarkdown
@@ -115,6 +118,9 @@ export default {
 </script>
 
 <style scoped>
+.single-description {
+  font-size: 16px;
+}
 .icon.heart {
   color: red;
 }
