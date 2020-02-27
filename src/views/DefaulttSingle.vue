@@ -70,6 +70,7 @@ export default {
       loading: true
     };
   },
+  
   methods: {
     addToFav() {
       if (!this.singleViewDefault.favouriate) {
