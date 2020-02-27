@@ -21,9 +21,9 @@ import VueCoreImageUpload from "vue-core-image-upload";
 import VueMeta from "vue-meta";
 Vue.config.productionTip = false;
 Vue.use(VueMeta, {
-  // optional pluginOptions
-  refreshOnceOnNavigation: true
+  keyName: 'metaInfo', // the component option name that vue-meta looks for meta info on.
 })
+
 Vue.use(VueCoreImageUpload);
 Vue.use(axios);
 Vue.use(Icon);
