@@ -56,6 +56,13 @@ export default {
   components: {
     VueMarkdown
   },
+      metaInfo: {
+      
+      htmlAttrs: {
+        lang: 'en',
+        amp: true
+      }
+    },
   props: ["id"],
   data() {
     return {
