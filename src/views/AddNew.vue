@@ -23,7 +23,7 @@
         <a-input placeholder="eg . education" v-model="tag" />
       </a-form-item>
     </a-form>
-    <router-link :to="`${route}`">
+    <router-link to="/">
       <a-button type="primary" class="float-right" @click="saveContent">Save Content</a-button>
     </router-link>
   </div>
@@ -47,8 +47,7 @@ export default {
       description: "",
       baseURL: "https://jointapi.now.sh/api/create?",
       favoriate: false,
-      minRead: "",
-      route: ""
+      minRead: ""
     };
   },
   components: {
@@ -71,11 +70,12 @@ export default {
         const api_url = `${this.baseURL}&id=${this.id}&title=${this.postTitle}&author=${this.postAuthor}&thumbnail=${this.nullThumbnail}&description=${this.description}&favoriate=${this.favoriate}&minRead=${this.minRead}&tag=${this.tag}`;
         console.log(api_url);
         this.postApi(api_url);
-        this.route = "/";
+
+        
         
       } else {
         alert("Incomplete form submition");
-        this.route = "/addNew";
+
       }
     },
     async postApi(url) {
