@@ -31,7 +31,6 @@
 
 <script>
 /* eslint-disable no-console */
-
 import VueCoreImageUpload from "vue-core-image-upload";
 import { VueEditor } from "vue2-editor";
 import axios from "axios";
@@ -91,7 +90,6 @@ export default {
     }
   },
   mounted() {
-
     console.log(this.thumbnail);
     axios
       .get("https://jointapi.now.sh/api/read")
@@ -104,6 +102,5 @@ export default {
       });
   }
 };
-
 /* eslint-enable no-console */
 </script>
