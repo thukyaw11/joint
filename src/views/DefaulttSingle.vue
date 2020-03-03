@@ -92,6 +92,7 @@ export default {
       this.defaultts = data;
     },
     checkFav(data) {
+      
       this.singleViewDefault = data[this.$props.id - 1];
 
       this.localId = localStorage.getItem("defaultt");
